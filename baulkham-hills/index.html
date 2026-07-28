@@ -689,24 +689,24 @@
           </div>
         </div>
         <div class="form-panel">
-          <form class="quote-form" novalidate="">
+          <form class="quote-form">
               <div class="two">
                 <div class="field"><label for="c-name">Name</label><input id="c-name" name="name" required placeholder="Your name" autocomplete="name"></div>
                 <div class="field"><label for="c-phone">Phone</label><input id="c-phone" name="phone" type="tel" required placeholder="04xx xxx xxx" autocomplete="tel"></div>
               </div>
               <div class="two">
                 <div class="field"><label for="c-email">Email</label><input id="c-email" name="email" type="email" required placeholder="you@email.com" autocomplete="email"></div>
-                <div class="field"><label for="c-address">Property Address</label><input id="c-address" name="address" required placeholder="123 Example St, Kellyville" autocomplete="street-address"></div>
+                <div class="field"><label for="c-address">Property Address</label><input id="c-address" name="property_address" required placeholder="123 Example St, Kellyville" autocomplete="street-address"></div>
               </div>
               <div class="field"><label for="c-service">Service Needed</label>
-                <select id="c-service" name="service" required>
+                <select id="c-service" name="service_needed" required>
                   <option value="Lawn Mowing &amp; Edging">Lawn Mowing &amp; Edging</option>
                   <option value="Hedge Trimming">Hedge Trimming</option>
                   <option value="Garden Maintenance">Garden Maintenance</option>
                   <option value="Complete Property Care">Complete Property Care</option>
                 </select>
               </div>
-              <div class="field"><label for="c-notes">Job Notes</label><textarea id="c-notes" name="notes" placeholder="Lawn size, how often, anything we should know..."></textarea></div>
+              <div class="field"><label for="c-notes">Job Notes</label><textarea id="c-notes" name="job_notes" placeholder="Lawn size, how often, anything we should know..."></textarea></div>
               <button type="submit" class="btn-submit">Send Quote Request →</button>
             </form>
         </div>
@@ -756,24 +756,24 @@
       <button type="button" class="modal-close" data-close-quote aria-label="Close"><svg class="icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg></button>
     </div>
     <p class="modal-sub">Tell us about your property and we'll come back with a clear price.</p>
-    <form class="quote-form" novalidate="">
+    <form class="quote-form">
               <div class="two">
                 <div class="field"><label for="m-name">Name</label><input id="m-name" name="name" required placeholder="Your name" autocomplete="name"></div>
                 <div class="field"><label for="m-phone">Phone</label><input id="m-phone" name="phone" type="tel" required placeholder="04xx xxx xxx" autocomplete="tel"></div>
               </div>
               <div class="two">
                 <div class="field"><label for="m-email">Email</label><input id="m-email" name="email" type="email" required placeholder="you@email.com" autocomplete="email"></div>
-                <div class="field"><label for="m-address">Property Address</label><input id="m-address" name="address" required placeholder="123 Example St, Kellyville" autocomplete="street-address"></div>
+                <div class="field"><label for="m-address">Property Address</label><input id="m-address" name="property_address" required placeholder="123 Example St, Kellyville" autocomplete="street-address"></div>
               </div>
               <div class="field"><label for="m-service">Service Needed</label>
-                <select id="m-service" name="service" required>
+                <select id="m-service" name="service_needed" required>
                   <option value="Lawn Mowing &amp; Edging">Lawn Mowing &amp; Edging</option>
                   <option value="Hedge Trimming">Hedge Trimming</option>
                   <option value="Garden Maintenance">Garden Maintenance</option>
                   <option value="Complete Property Care">Complete Property Care</option>
                 </select>
               </div>
-              <div class="field"><label for="m-notes">Job Notes</label><textarea id="m-notes" name="notes" placeholder="Lawn size, how often, anything we should know..."></textarea></div>
+              <div class="field"><label for="m-notes">Job Notes</label><textarea id="m-notes" name="job_notes" placeholder="Lawn size, how often, anything we should know..."></textarea></div>
               <button type="submit" class="btn-submit">Send Quote Request →</button>
             </form>
   </div>
@@ -785,5 +785,9 @@
 </div>
 
 <script src="../assets/js/main.js" defer></script>
+<script
+  src="https://link.msgsndr.com/js/external-tracking.js"
+  data-tracking-id="tk_75bc2e6eb8304b789f5fe4b3cf7025e7">
+</script>
 </body>
 </html>
