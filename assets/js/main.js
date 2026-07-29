@@ -77,6 +77,15 @@
     });
   });
 
+  /* Before / after comparison sliders */
+  document.querySelectorAll('.ba-slider').forEach(function (slider) {
+    var range = slider.querySelector('.ba-range');
+    if (!range) return;
+    var update = function () { slider.style.setProperty('--pos', range.value + '%'); };
+    range.addEventListener('input', update);
+    update();
+  });
+
   /* Custom cursor (fine pointers only) */
   var cursor = document.querySelector('.cursor');
   var cursorDot = document.querySelector('.cursor-dot');
