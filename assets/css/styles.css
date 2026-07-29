@@ -79,7 +79,7 @@ input:focus, textarea:focus, select:focus { outline: none; border-color: rgba(34
   display: flex; align-items: center; justify-content: space-between; gap: 24px;
 }
 .site-header .brand { display: flex; align-items: center; gap: 12px; flex-shrink: 0; }
-.site-header .brand img { height: 68px; width: auto; object-fit: contain; padding: 6px 0; }
+.site-header .brand img { height: 82px; width: auto; object-fit: contain; padding: 6px 0; }
 .nav-desktop { display: flex; align-items: center; gap: 32px; font-size: 14px; font-weight: 500; }
 .nav-desktop a[aria-current="page"] { color: var(--green); }
 .header-actions { display: flex; align-items: center; gap: 24px; }
@@ -456,7 +456,7 @@ input:focus, textarea:focus, select:focus { outline: none; border-color: rgba(34
 .site-footer { border-top: 1px solid var(--line); padding: 80px 24px 40px; background: var(--bg); }
 .footer-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 48px; margin-bottom: 64px; }
 .footer-brand { display: flex; flex-direction: column; gap: 24px; max-width: 380px; }
-.footer-brand img { height: 96px; width: auto; object-fit: contain; border-radius: 8px; align-self: flex-start; }
+.footer-brand img { height: 110px; width: auto; object-fit: contain; align-self: flex-start; }
 .footer-brand p { margin: 0; font-size: 14px; color: var(--muted); line-height: 1.7; }
 .footer-col { display: flex; flex-direction: column; gap: 22px; }
 .footer-col h4 { margin: 0; font-size: 12px; font-weight: 800; text-transform: uppercase; letter-spacing: .16em; }
