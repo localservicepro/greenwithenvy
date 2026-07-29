@@ -269,8 +269,8 @@ input:focus, textarea:focus, select:focus { outline: none; border-color: rgba(34
   border: 1px solid var(--line); display: flex; flex-direction: column; transition: background .25s;
 }
 .service-card:hover { background: var(--card-hover); }
-.service-media { height: 192px; position: relative; overflow: hidden; }
-.service-media img { width: 100%; height: 100%; object-fit: cover; transition: transform .7s; }
+.service-media { height: 192px; position: relative; overflow: hidden; background: #000; }
+.service-media img { width: 100%; height: 100%; object-fit: contain; transition: transform .7s; }
 .service-card:hover .service-media img { transform: scale(1.06); }
 .service-media .scrim { position: absolute; inset: 0; background: linear-gradient(to top, rgba(13, 18, 15, 0.92), transparent); }
 .service-media .num { position: absolute; top: 16px; right: 20px; font-size: 38px; font-weight: 800; color: rgba(255, 255, 255, 0.22); }
