@@ -273,7 +273,6 @@ input:focus, textarea:focus, select:focus { outline: none; border-color: rgba(34
 .service-media img { width: 100%; height: 100%; object-fit: cover; transition: transform .7s; }
 .service-card:hover .service-media img { transform: scale(1.06); }
 .service-media .scrim { position: absolute; inset: 0; background: linear-gradient(to top, rgba(13, 18, 15, 0.92), transparent); }
-.service-media .num { position: absolute; top: 16px; right: 20px; font-size: 38px; font-weight: 800; color: rgba(255, 255, 255, 0.22); }
 .service-media .si {
   position: absolute; bottom: 16px; left: 24px; width: 48px; height: 48px; border-radius: 999px;
   background: rgba(34, 196, 93, 0.2); backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px);
