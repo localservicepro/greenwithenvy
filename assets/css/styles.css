@@ -164,7 +164,7 @@ input:focus, textarea:focus, select:focus { outline: none; border-color: rgba(34
 .eyebrow .dot { width: 8px; height: 8px; border-radius: 999px; background: var(--green); }
 .eyebrow .dot--pulse { animation: gwe-pulse 2s ease-in-out infinite; }
 .hero h1 {
-  margin: 0; font-size: clamp(38px, 5vw, 72px); font-weight: 800; line-height: 1.04;
+  margin: 0; font-size: clamp(32px, 3.6vw, 54px); font-weight: 800; line-height: 1.08;
   text-transform: uppercase; letter-spacing: -0.02em; text-wrap: balance;
 }
 .hero--area h1 { font-size: clamp(42px, 6vw, 84px); line-height: 0.92; letter-spacing: -0.035em; }
